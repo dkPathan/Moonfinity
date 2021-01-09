@@ -1,4 +1,28 @@
 .home-parent-div {
-  // background-color: rgba(0, 0, 0, 0.849);
   height: calc(var(--vh, 1vh) * 100);
+  background: radial-gradient(#000000, #000000);
+  .parent-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .home-body-parent {
+    .parent-heading {
+      margin: 15px;
+      padding: 15px;
+      background: white;
+      display: flex;
+      justify-content: center;
+      .heading-text {
+        margin: 0 0;
+      }
+    }
+  }
+
+  .box-parent {
+    display: flex;
+    .parent-p-img {
+      background: white;
+    }
+  }
 }
